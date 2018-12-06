@@ -5,10 +5,11 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { CoursesComponent } from './courses/courses.component';
 import { BlogsComponent } from './blogs/blogs.component';
-import { EventsComponent } from './events/events.component';
+
 import { ContactusComponent } from './contactus/contactus.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { BecomeaninstructorComponent } from './becomeaninstructor/becomeaninstructor.component';
 
 @NgModule({
   declarations: [
@@ -16,10 +17,11 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     CoursesComponent,
     BlogsComponent,
-    EventsComponent,
+   
     ContactusComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    BecomeaninstructorComponent
   ],
   imports: [
     BrowserModule,
